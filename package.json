@@ -22,12 +22,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/taoyuan/copress-middleware.git"
+    "url": "git+https://github.com/taoyuan/bootable-middleware.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/taoyuan/copress-middleware/issues"
+    "url": "https://github.com/taoyuan/bootable-middleware/issues"
   },
-  "homepage": "https://github.com/taoyuan/copress-middleware#readme"
+  "homepage": "https://github.com/taoyuan/bootable-middleware#readme"
 }
