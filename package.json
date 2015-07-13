@@ -1,0 +1,33 @@
+{
+  "name": "bootable-middleware",
+  "version": "0.1.0",
+  "description": "Express middleware loader phase for Bootable.",
+  "main": "index.js",
+  "dependencies": {
+    "configup": "^0.1.1",
+    "debug": "^2.2.0",
+    "expressx": "^0.1.8",
+    "lodash": "^3.10.0"
+  },
+  "devDependencies": {
+    "bootable": "^0.2.4",
+    "chai": "^3.0.0",
+    "connect-powered-by": "^0.1.0",
+    "mocha": "^2.2.5",
+    "morgan": "^1.6.1",
+    "supertest": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taoyuan/copress-middleware.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taoyuan/copress-middleware/issues"
+  },
+  "homepage": "https://github.com/taoyuan/copress-middleware#readme"
+}

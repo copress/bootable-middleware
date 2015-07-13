@@ -1,2 +1,2 @@
-# copress-middleware
-Copress middleware loader
+# bootable-middleware
+> Express middleware loader phase for Bootable.

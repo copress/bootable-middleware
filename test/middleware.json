@@ -1,0 +1,13 @@
+{
+  "initial": {
+    "expressx#logger": {
+      "params": "combined"
+    },
+    "connect-powered-by": {
+      "params": "bootable-middleware"
+    },
+    "./helpers/push-name-middleware": {
+      "params": "custom-middleware"
+    }
+  }
+}
