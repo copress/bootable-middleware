@@ -2,9 +2,9 @@
   "name": "bootable-middleware",
   "version": "0.1.1",
   "description": "Express middleware loader phase for Bootable.",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "dependencies": {
-    "configup": "^0.1.2",
+    "configup": "copress/configup",
     "debug": "^2.2.0",
     "expressx": "^0.1.8",
     "lodash": "^3.10.0"
@@ -22,12 +22,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/taoyuan/bootable-middleware.git"
+    "url": "git+https://github.com/copress/bootable-middleware.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/taoyuan/bootable-middleware/issues"
+    "url": "https://github.com/copress/bootable-middleware/issues"
   },
-  "homepage": "https://github.com/taoyuan/bootable-middleware#readme"
+  "homepage": "https://github.com/copress/bootable-middleware#readme"
 }
