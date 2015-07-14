@@ -2,20 +2,19 @@ var expect = require('chai').expect;
 var request = require('supertest');
 var expressx = require('expressx');
 var bootable = require('bootable');
-var middleware = require('../');
+var middlewarePhase = require('../');
 
 describe('middleware', function () {
     it('configures middleware (end-to-end)', function (done) {
-        var owner = {
-            app: expressx()
-        };
+        var app = expressx();
+        var owner = { app: app };
         var initializer = new bootable.Initializer();
-        initializer.phase(middleware(__dirname));
+        initializer.phase(middlewarePhase(__dirname));
         initializer.run(function (err) {
             if (err) done(err);
         }, owner);
 
-        request(owner.app)
+        request(app)
             .get('/')
             .end(function(err, res) {
                 if (err && err.status !== 404) return done(err);
