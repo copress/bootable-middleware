@@ -1,6 +1,6 @@
 {
   "name": "bootable-middleware",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Express middleware loader phase for Bootable.",
   "main": "index.js",
   "dependencies": {
