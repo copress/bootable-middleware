@@ -4,7 +4,7 @@
   "description": "Express middleware loader phase for Bootable.",
   "main": "./lib/index.js",
   "dependencies": {
-    "configup": "copress/configup",
+    "configup": "taoyuan/configup",
     "debug": "^2.2.0",
     "expressx": "^0.1.8",
     "lodash": "^3.10.0"
