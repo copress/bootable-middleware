@@ -4,7 +4,7 @@
   "description": "Express middleware loader phase for Bootable.",
   "main": "index.js",
   "dependencies": {
-    "configup": "^0.1.1",
+    "configup": "^0.1.2",
     "debug": "^2.2.0",
     "expressx": "^0.1.8",
     "lodash": "^3.10.0"
